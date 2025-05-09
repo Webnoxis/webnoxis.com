@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-row w-full h-fit justify-center">
     <div class="flex flex-col items-center justify-center w-fit h-fit text-center gap-y-[0.5rem]">
-      <h class="--font-poppins text-[2.5rem] font-semibold">Welcome to Webnoxis</h>
+      <h class="font-Poppins text-[2.5rem] font-semibold">Welcome to Webnoxis</h>
       <h class="font-Roboto text-[1rem] font-regular"
         >Your one-stop destination for top-notch services.</h
       >
