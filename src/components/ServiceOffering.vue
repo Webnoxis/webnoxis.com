@@ -23,12 +23,13 @@ const props = defineProps<{
 }>()
 
 
-import { ref, onMounted, onUnmounted } from 'vue'
+import { ref, onMounted } from 'vue'
 
 const isVisible = ref(false)
 const animatedElement = ref(null)
 
-const onIntersect = (entries, observer) => {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const onIntersect = (entries: any, observer: any) => {
   if (entries[0].isIntersecting) {
     isVisible.value = true
     observer.disconnect() // Only animate once
