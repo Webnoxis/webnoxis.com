@@ -1,5 +1,5 @@
 <template>
-  <div     ref="animatedElement" :class="['flex flex-col gap-y-[10px] w-[300px] items-left h-[280px] border-[rgba(0,0,0,0.1)] border rounded-[10px] p-[12px] transition-all duration-400 ease-in-out', isVisible ? 'animate-zoom-in' : 'opacity-0 scale-0']">
+  <div ref="animatedElement" :class="['flex flex-col gap-y-[10px] w-[300px] items-left h-[280px] border-[rgba(0,0,0,0.1)] border rounded-[10px] p-[12px] transition-all duration-400 ease-in-out', isVisible ? 'animate-zoom-in' : 'opacity-0 scale-0']">
     <div class="flex flex-col gap-y-[4px] self-start text-left font-Roboto">
       <h class="font-Roboto font-medium text-[20px]">{{ planName }}</h>
       <h class="font-['Roboto', sans-serif] font-regular text-[16px]">{{ price }}</h>

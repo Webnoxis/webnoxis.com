@@ -7,7 +7,7 @@
       <h class="font-Poppins font-semibold text-[40px]">Partners</h>
     </div>
     <div class="flex flex-row gap-x-[20px] w-fit justify-evenly">
-      <PartnerItem :companyName="'QuackStack Ltd'" :companyIcon="'quackstack.svg'"/>
+      <PartnerItem :url="'https://quackstack.net/'" :companyName="'QuackStack Ltd'" :companyIcon="'quackstack.svg'"/>
     </div>
   </div>
 </template>
