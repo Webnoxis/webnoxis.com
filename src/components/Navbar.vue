@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div class="flex flex-row w-full h-[4rem] p-[1.3rem] justify-between">
+  <div class="fixed flex flex-row w-full h-[4rem] p-[1.3rem] justify-between">
     <div class="flex flex-row items-center justify-items-start">
       <RouterLink to="/" class="font-Poppins font-semibold text-[1.5rem]">Webnoxis</RouterLink>
     </div>
