@@ -28,7 +28,7 @@
 
   <RouterView />
 
-  <Footer />
+  <Footer class="mt-[60px]"/>
 </template>
 
 <style scoped>
