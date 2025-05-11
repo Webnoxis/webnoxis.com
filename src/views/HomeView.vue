@@ -9,6 +9,8 @@ import Contact from "../components/Contact.vue"
 // Define the refs with proper types
 const aboutRef = ref<InstanceType<typeof About> | null>(null)
 const servicesRef = ref<InstanceType<typeof Services> | null>(null)
+const contactRef = ref<InstanceType<typeof Contact> | null>(null)
+
 
 function scrollToAbout() {
   aboutRef.value?.$el?.scrollIntoView({ behavior: 'smooth' })
@@ -17,6 +19,12 @@ function scrollToAbout() {
 function scrollToServices() {
   servicesRef.value?.$el?.scrollIntoView({ behavior: 'smooth' })
 }
+
+defineExpose({
+  aboutRef,
+  servicesRef,
+  contactRef
+})
 </script>
 
 
@@ -28,6 +36,6 @@ function scrollToServices() {
     <Services ref="servicesRef"/>
     <About ref="aboutRef"/>
     <Partners />
-    <Contact />
+    <Contact ref="contactRef"/>
   </main>
 </template>

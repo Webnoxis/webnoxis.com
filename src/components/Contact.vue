@@ -7,12 +7,12 @@
             </h>
             <h class=" font-Roboto text-[16px]">
                 Have a question or need assistance? Reach out to us.
-            </h>    
-        </div>    
+            </h>
+        </div>
         <div class="flex flex-col gap-y-[25px]">
-            <ContactField :FieldName="'Name'" :placeholder="'Enter your name'"/>
-            <ContactField :FieldName="'Email'" :placeholder="'Enter your email'"/>
-            <ContactField :FieldName="'Message'" :placeholder="'Enter your message'"/>
+            <ContactField :type="'text'" :FieldName="'Name'" :placeholder="'Enter your name'"/>
+            <ContactField :type="'email'" :FieldName="'Email'" :placeholder="'Enter your email'"/>
+            <ContactField :type="'textarea'" :FieldName="'Message'" :placeholder="'Enter your message'"/>
             <span
             class="p-[12px] w-[240px] text-center items-center justify-center rounded-[10px] font-semibold text-white bg-[#713D86] transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-[0px_1px_12px_4px_rgba(0,_0,_0,_0.1)] self-center">
             Submit

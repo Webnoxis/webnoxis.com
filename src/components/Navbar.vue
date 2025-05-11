@@ -5,30 +5,30 @@
       <RouterLink to="/" class="font-Poppins font-semibold text-[1.5rem]">Webnoxis</RouterLink>
     </div>
     <div class="flex flex-row items-center justify-items-end gap-x-5 text-[1.1rem] font-Roboto">
-      <RouterLink class="group relative" to="/">
+      <!-- <RouterLink class="group relative" to="/">
         Home
           <span
             class="absolute left-0 bottom-0 h-[2px] w-0 bg-[#713D86] transition-all duration-300 group-hover:w-full"
           ></span>
-      </RouterLink>
-      <RouterLink class="group relative" to="/services">
+      </RouterLink> -->
+      <span  class="group relative" @click="$emit('scrollToServices')">
         Services
         <span
             class="absolute left-0 bottom-0 h-[2px] w-0 bg-[#713D86] transition-all duration-300 group-hover:w-full"
         ></span>
-      </RouterLink>
-      <RouterLink class="group relative" to="/about">
+      </span>
+      <span class="group relative" @click="$emit('scrollToAbout')">
         About
         <span
             class="absolute left-0 bottom-0 h-[2px] w-0 bg-[#713D86] transition-all duration-300 group-hover:w-full"
         ></span>
-      </RouterLink>
-      <RouterLink class="group relative" to="/contact">
+      </span>
+      <span class="group relative" @click="$emit('scrollToContact')">
         Contact
         <span
             class="absolute left-0 bottom-0 h-[2px] w-0 bg-[#713D86] transition-all duration-300 group-hover:w-full"
         ></span>
-      </RouterLink>
+      </span>
     </div>
   </div>
 </template>
