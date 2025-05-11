@@ -9,9 +9,9 @@
   const pageRef = ref<ComponentPublicInstance<HomeComponentExposed> | null>(null)
 
   type HomeComponentExposed = {
-    aboutRef: HTMLElement | null
-    servicesRef: HTMLElement | null
-    contactRef: HTMLElement | null
+    aboutRef: ComponentPublicInstance | null
+    servicesRef: ComponentPublicInstance | null
+    contactRef: ComponentPublicInstance | null
   }
 
   const handleScroll = () => {
@@ -35,9 +35,8 @@
   }
 
   function scrollToContact() {
-  pageRef.value?.contactRef?.$el?.scrollIntoView({ behavior: 'smooth' })
-}
-
+    pageRef.value?.contactRef?.$el?.scrollIntoView({ behavior: 'smooth' })
+  }
 </script>
 
 <template>
