@@ -11,19 +11,19 @@
             class="absolute left-0 bottom-0 h-[2px] w-0 bg-[#713D86] transition-all duration-300 group-hover:w-full"
           ></span>
       </RouterLink> -->
-      <span  class="group relative" @click="$emit('scrollToServices')">
+      <span  class="group relative cursor-pointer" @click="$emit('scrollToServices')">
         Services
         <span
             class="absolute left-0 bottom-0 h-[2px] w-0 bg-[#713D86] transition-all duration-300 group-hover:w-full"
         ></span>
       </span>
-      <span class="group relative" @click="$emit('scrollToAbout')">
+      <span class="group relative cursor-pointer" @click="$emit('scrollToAbout')">
         About
         <span
             class="absolute left-0 bottom-0 h-[2px] w-0 bg-[#713D86] transition-all duration-300 group-hover:w-full"
         ></span>
       </span>
-      <span class="group relative" @click="$emit('scrollToContact')">
+      <span class="group relative cursor-pointer" @click="$emit('scrollToContact')">
         Contact
         <span
             class="absolute left-0 bottom-0 h-[2px] w-0 bg-[#713D86] transition-all duration-300 group-hover:w-full"
