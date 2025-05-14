@@ -12,7 +12,7 @@
     <div class="flex flex-row gap-x-[10px] w-fit justify-evenly">
       <ServiceOffering
         :planName="'Starter'"
-        :price="'$80-$120'"
+        :price="'$100-$150'"
         :pages="'1-3 pages'"
         :attributes="[
           'Professional looking site',
@@ -25,7 +25,7 @@
       />
       <ServiceOffering
         :planName="'Standart'"
-        :price="'$200-$250'"
+        :price="'$250-$300'"
         :pages="'3-5 pages'"
         :attributes="[
           'Custom design',
@@ -36,7 +36,7 @@
       />
       <ServiceOffering
         :planName="'Premium'"
-        :price="'$450+'"
+        :price="'$550+'"
         :pages="'5-10 pages'"
         :attributes="['Advanced animations', 'Advanced and mobile-friendly design ']"
         class="last:rounded-r-[20px]"
