@@ -38,7 +38,7 @@
         :planName="'Premium'"
         :price="'$550+'"
         :pages="'5-10 pages'"
-        :attributes="['Advanced animations', 'Advanced and mobile-friendly design ']"
+        :attributes="['Advanced animations', 'Advanced and mobile-friendly design', 'Blog or portfolio section (optional)', '1 month of support and minor edits ']"
         class="last:rounded-r-[20px]"
       />
     </div>
