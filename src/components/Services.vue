@@ -12,7 +12,7 @@
     <div class="flex flex-row gap-x-[10px] w-fit justify-evenly">
       <ServiceOffering
         :planName="'Starter'"
-        :price="'$100-$150'"
+        :price="'$200-$300'"
         :pages="'1-3 pages'"
         :attributes="[
           'Professional looking site',
@@ -20,25 +20,27 @@
           'Contact form',
           'Google Maps and business info',
           'Perfect for restaurants, salons, small shops',
+          'Fast loading & optimized images',
         ]"
         class="first:rounded-l-[20px]"
       />
       <ServiceOffering
         :planName="'Standart'"
-        :price="'$250-$300'"
-        :pages="'3-5 pages'"
+        :price="'$450-$600'"
+        :pages="'4-6 pages'"
         :attributes="[
           'Custom design',
           'Basic SEO(Google search optimization)',
           'Simple photo gallery or menu ',
           'Basic blog or news section if needed',
+          'Social media integration (buttons, feeds)',
         ]"
       />
       <ServiceOffering
         :planName="'Premium'"
-        :price="'$550+'"
-        :pages="'5-10 pages'"
-        :attributes="['Advanced animations', 'Advanced and mobile-friendly design', 'Blog or portfolio section (optional)', '1 month of support and minor edits ']"
+        :price="'$900+'"
+        :pages="'7-12 pages'"
+        :attributes="['Advanced animations', 'Advanced and mobile-friendly design', 'Blog or portfolio section (optional)', '3 rounds of revisions + 2 months of post-launch support', 'CMS integration for easy content management' ]"
         class="last:rounded-r-[20px]"
       />
     </div>
