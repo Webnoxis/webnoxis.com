@@ -42,7 +42,7 @@
 <template>
   <header>
     <Navbar :class="[
-      'transition-all duration-500 ease-in-out z-50 max-xl:bg-transparent max-xl:text-white max-xl:shadow-none',
+      'transition-all duration-500 ease-in-out z-50 max-xl:bg-transparent max-xl:text-white max-xl:shadow-none max-xl:invisible',
       isScrolled ? 'bg-white shadow-md text-black' : 'bg-transparent text-white'
     ]"
     @scrollToAbout="scrollToAbout"
