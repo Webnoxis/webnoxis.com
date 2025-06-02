@@ -3,13 +3,17 @@
   <div
     class="flex flex-col gap-y-[60px] p-x-[170px] p-y-[60px] w-full h-fit justify-center justify-items-center items-center"
   >
-    <div class="flex flex-col p-x-[10px] p-y-[20px] text-center justify-center max-xl:max-w-[300px]">
+    <div
+      class="flex flex-col p-x-[10px] p-y-[20px] text-center justify-center max-lg:max-w-[300px]"
+    >
       <h class="font-Poppins font-semibold text-[40px]">Our Services</h>
       <h class="font-Roboto font-regular text-[16px]"
         >Explore our range of premium service offerings.</h
       >
     </div>
-    <div class="flex flex-row gap-x-[10px] w-fit justify-evenly max-xl:flex-col max-xl:items-center max-xl:gap-y-[10px]">
+    <div
+      class="flex flex-row gap-x-[10px] w-fit justify-evenly max-lg:flex-col max-lg:items-center max-lg:gap-y-[10px]"
+    >
       <ServiceOffering
         :planName="'Starter'"
         :price="'$200-$300'"
@@ -40,16 +44,22 @@
         :planName="'Premium'"
         :price="'$900+'"
         :pages="'7-12 pages'"
-        :attributes="['Advanced animations', 'Advanced and mobile-friendly design', 'Blog or portfolio section (optional)', '3 rounds of revisions + 2 months of post-launch support', 'CMS integration for easy content management' ]"
+        :attributes="[
+          'Advanced animations',
+          'Advanced and mobile-friendly design',
+          'Blog or portfolio section (optional)',
+          '3 rounds of revisions + 2 months of post-launch support',
+          'CMS integration for easy content management',
+        ]"
         class="xl:last:rounded-r-[20px]"
       />
     </div>
     <span
       @click="$emit('scrollToContact')"
-      class="p-[12px] w-[240px] text-center items-center justify-center rounded-[10px] font-semibold text-white bg-[#713D86]  transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-[0px_1px_12px_4px_rgba(0,_0,_0,_0.1)]"
+      class="p-[12px] w-[240px] text-center items-center justify-center rounded-[10px] font-semibold text-white bg-[#713D86] transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-[0px_1px_12px_4px_rgba(0,_0,_0,_0.1)]"
     >
       Contact us
-  </span>
+    </span>
   </div>
 </template>
 
