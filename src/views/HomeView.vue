@@ -20,6 +20,10 @@ function scrollToServices() {
   servicesRef.value?.$el?.scrollIntoView({ behavior: 'smooth' })
 }
 
+function scrollToContact() {
+  contactRef.value?.$el?.scrollIntoView({ behavior: 'smooth' })
+}
+
 defineExpose({
   aboutRef,
   servicesRef,
@@ -33,7 +37,8 @@ defineExpose({
     <WelcomeItem
       @scrollToAbout="scrollToAbout"
       @scrollToServices="scrollToServices"/>
-    <Services ref="servicesRef"/>
+    <Services ref="servicesRef"
+      @scrollToContact="scrollToContact"/>
     <About ref="aboutRef"/>
     <Partners />
     <Contact ref="contactRef"/>
