@@ -9,7 +9,7 @@
  hover:scale-110
 " @click="redirect">
     <img class="w-[100px] group-hover:w-[70px] group-hover: transition-all duration-300 ease-in-out" :src="companyLogoUrl" :alt="companyName" />
-    <h class="font-Poppins text-[20px] opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out">{{ companyName }}</h>
+    <h class="font-Poppins text-[20px] opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out max-xl:opacity-100">{{ companyName }}</h>
  </span>
 </template>
 
