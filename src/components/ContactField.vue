@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col gap-y-[0px] w-[520px] h-[60px] justify-center relative">
+  <div class="flex flex-col gap-y-[0px] w-full h-[60px] justify-center relative">
     <label :class="[
       'ml-[7px] absolute select-none  bg-white px-2 transition-all duration-300 easy-in-out font-Roboto ',
       (isFocusedOrFilled ? 'transform-[translateY(-100%)] z-[3] text-[15px]' : 'transform-none opacity-60 z-[-1] text-[14px]')

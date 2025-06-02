@@ -6,7 +6,7 @@
     <div class="flex flex-col p-x-[10px] p-y-[20px] text-center justify-center">
       <h class="font-Poppins font-semibold text-[40px]">Partners</h>
     </div>
-    <div class="flex flex-row gap-x-[20px] w-fit justify-evenly">
+    <div class="flex flex-row gap-x-[20px] w-fit justify-evenly max-xl:flex-col max-xl:items-center">
       <PartnerItem :url="'https://quackstack.net/'" :companyName="'QuackStack Ltd'" :companyIcon="'quackstack.svg'"/>
     </div>
   </div>

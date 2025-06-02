@@ -3,13 +3,13 @@
   <div
     class="flex flex-col gap-y-[60px] p-x-[170px] p-y-[60px] w-full h-fit justify-center justify-items-center items-center"
   >
-    <div class="flex flex-col p-x-[10px] p-y-[20px] text-center justify-center">
+    <div class="flex flex-col p-x-[10px] p-y-[20px] text-center justify-center max-xl:max-w-[300px]">
       <h class="font-Poppins font-semibold text-[40px]">Our Services</h>
       <h class="font-Roboto font-regular text-[16px]"
         >Explore our range of premium service offerings.</h
       >
     </div>
-    <div class="flex flex-row gap-x-[10px] w-fit justify-evenly">
+    <div class="flex flex-row gap-x-[10px] w-fit justify-evenly max-xl:flex-col max-xl:items-center max-xl:gap-y-[10px]">
       <ServiceOffering
         :planName="'Starter'"
         :price="'$200-$300'"
@@ -22,7 +22,7 @@
           'Perfect for restaurants, salons, small shops',
           'Fast loading & optimized images',
         ]"
-        class="first:rounded-l-[20px]"
+        class="xl:first:rounded-l-[20px]"
       />
       <ServiceOffering
         :planName="'Standart'"
@@ -41,7 +41,7 @@
         :price="'$900+'"
         :pages="'7-12 pages'"
         :attributes="['Advanced animations', 'Advanced and mobile-friendly design', 'Blog or portfolio section (optional)', '3 rounds of revisions + 2 months of post-launch support', 'CMS integration for easy content management' ]"
-        class="last:rounded-r-[20px]"
+        class="xl:last:rounded-r-[20px]"
       />
     </div>
     <RouterLink
